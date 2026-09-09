@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="مصفوفة التسجيل والمتوقع">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3cc7b9"/>
+      <stop offset="0.55" stop-color="#1b9e92"/>
+      <stop offset="1" stop-color="#0b7d71"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="0.3" cy="0.24" r="0.85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- البلاطة -->
+  <rect width="512" height="512" rx="112" fill="url(#tile)"/>
+  <rect width="512" height="512" rx="112" fill="url(#sheen)"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3"/>
+
+  <!-- شبكة مصفوفة 2×2 (أوضح للأحجام الصغيرة) مع خلية مؤكَّدة بعلامة صح -->
+  <rect x="120" y="120" width="123" height="123" rx="28" fill="#ffffff" fill-opacity="0.92"/>
+  <rect x="269" y="120" width="123" height="123" rx="28" fill="#ffffff" fill-opacity="0.92"/>
+  <rect x="120" y="269" width="123" height="123" rx="28" fill="#ffffff" fill-opacity="0.92"/>
+  <rect x="269" y="269" width="123" height="123" rx="28" fill="#ffffff"/>
+  <path d="M296 332 L322 359 L366 304" fill="none" stroke="#1f9d4e" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
